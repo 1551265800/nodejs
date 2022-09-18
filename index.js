@@ -5,5 +5,5 @@ fs.readFile("./me.txt","utf8",(err,str)=>{
         return console.log(err);
     }
     //成功之后的结果
-    console.log(str);
+    console.log("输出的结果:"+str);
 })
